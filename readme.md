@@ -1,4 +1,4 @@
-# Remote Controlled Cars.
+# Remote Controlled Cars
 
 The purpose of this exercise is to demonstrate TDD and come up with a solution to the problem given below. Working unit tests will be sufficient as a solution, but you may provide a simple user interface to demonstrate your codes capability if you desire.
 Cars are placed on a 15 by 15 grid at particular co-ordinates heading north, and the simple commands Left, right and forward are transmitted to them. The commands must be executed and the final position calculated.
@@ -31,10 +31,13 @@ This design takes into account invalid input formats and inputs that would put a
 
 ## Build & Test And Package
 
-mvnw clean package 
+```bash
+mvnw clean package
+```
 
 ## Run the example against the built jar
 
+```bash
 cd target
-
 java -jar remote-controlled-cars-0.0.1-SNAPSHOT.jar <input>
+```
